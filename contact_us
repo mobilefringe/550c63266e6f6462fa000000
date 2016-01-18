@@ -19,6 +19,11 @@
                         <p class="directory_content">{{name}}</p>
                         <p class="directory_content">{{address1}}</p>
                         <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
+                        <p class="directory_content"><strong>Kristine Kelly</strong> 
+                   <br>Customer Service Supervisor
+                   <br>905-561-2444 (ext. 229)
+                   <br> <a href="mailto:kkelly@bentallkennedy.com" target="_blank">kkelly@bentallkennedy.com</a></p>
+                   
                         <br>
                     <p class="directory_content"><strong>Rick Saker</strong> 
                     <br>General Manager
@@ -26,11 +31,7 @@
                     <br><a href="mailto:rsaker@bentallkennedy.com ">rsaker@bentallkennedy.com</a></p>
                     <br>
                    
-                   <p class="directory_content"><strong>Kristine Kelly</strong> 
-                   <br>Customer Service Supervisor
-                   <br>905-561-2444 (ext. 229)
-                   <br> <a href="mailto:kkelly@bentallkennedy.com" target="_blank">kkelly@bentallkennedy.com</a></p>
-                   <br>
+                   
                    <p class="directory_content"><strong>Len Kirby</strong> 
                    <br>Operations Manager
                    <br>905-561-2444 (ext. 224)
@@ -56,7 +57,7 @@
                    <br>Administrative Assistant & Accounts Payable
                    <br>905-561-2444 (ext. 221)
                    <br> <a href="mailto:vjames@bentallkennedy.com" target="_blank">vjames@bentallkennedy.com</a></p>
-                   
+                   <br>
                   
                    <p class="directory_content"><strong>Andrew Kaczmarski</strong> 
                    <br>Security Supervisor  
