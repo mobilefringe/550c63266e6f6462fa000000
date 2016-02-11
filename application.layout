@@ -104,13 +104,13 @@
     }
     /*hyperlinks*/
     a{
-        color:#6e4700;
+        color:#ed2227;
         text-decoration:inherit;
     }
     
     /*hyperlink hover color*/
     a:hover{
-        color:#6e4700!important;
+        color:#ed2227 !important;
     }
     
     body{
@@ -149,7 +149,7 @@
     }
     
     .navbar .nav li a:hover,.navbar .nav li a:active{
-     
+     color:#6e4700;
     }
     
     
