@@ -190,7 +190,7 @@
     color: black !important;
 }
     #description_section{
-        background: #8e9089 !important;
+        background: #6e4700 !important;
     }
     
     .section_header{}
