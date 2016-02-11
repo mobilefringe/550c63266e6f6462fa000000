@@ -184,7 +184,7 @@
     }
     /*inside page banners*/
     .page_banner{
-        background: #e0ddce !important;
+        background: #8e9089 !important;
     }
     
     #description_section{
