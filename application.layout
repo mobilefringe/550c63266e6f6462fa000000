@@ -186,9 +186,9 @@
     .page_banner{
         background: #8e9089 !important;
     }
-    .navbar .nav li a:hover,.navbar .nav li a:active{
-        color:black !important;
-    }
+    .navbar .nav li a:hover {
+    color: black;
+}
     #description_section{
         background: #8e9089 !important;
     }
