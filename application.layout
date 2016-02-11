@@ -188,7 +188,7 @@
     }
     
     #description_section{
-        background: #e0ddce !important;
+        background: #8e9089 !important;
     }
     
     .section_header{}
