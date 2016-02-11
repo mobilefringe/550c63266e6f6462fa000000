@@ -122,7 +122,15 @@
     header{
         background: #e5eded;
     }
-    
+    .site_welcome_msg {
+  
+    color: white;
+}
+.site_description {
+   
+    color: white !important;
+}
+
     .main_window{
         border:40px solid #e5eded;
     }
