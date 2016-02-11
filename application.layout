@@ -187,7 +187,7 @@
         background: #8e9089 !important;
     }
     .navbar .nav li a:hover,.navbar .nav li a:active{
-        color:black;
+        color:black !important;
     }
     #description_section{
         background: #8e9089 !important;
