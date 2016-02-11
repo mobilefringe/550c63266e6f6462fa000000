@@ -124,7 +124,7 @@
     }
     
     .main_window{
-        border:40px solid #f5f4ee;
+        border:40px solid #e5eded;
     }
     .btn-primary{
         background: #ed2227 !important;
@@ -214,7 +214,7 @@
     @media (max-width: 767px) {
         .main_window{
             width:100%;
-            border:15px solid #f5f4ee !important;
+            border:15px solid #e5eded !important;
             border-top:none !important;
         }  
     }
