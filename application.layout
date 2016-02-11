@@ -125,14 +125,14 @@
     .site_welcome_msg {
   
     color: white;
-}
-.site_description {
+    }
+    .site_description {
    
     color: white !important;
-}
+    }
 
     .main_window{
-        border:40px solid #e5eded;
+        border:40px solid #8e9089;
     }
     .btn-primary{
         background: #ed2227 !important;
@@ -173,18 +173,18 @@
     }
     /*social media box color*/
     #social_media_wrapper{
-        background:#e5eded;
+        background:#8e9089;
        
     }
     /*social media icon inner color*/
     #social_media_wrapper a{
-        color:#e5eded;
+        color:#8e9089;
         background:white !important;
         
     }
     #social_media_wrapper a:hover{
         color: white !important;
-        background:#e5eded !important;
+        background:#8e9089 !important;
     }
     .map-mouse-over{
     /*set color of store highlight and hover over for SVG map*/
@@ -224,7 +224,7 @@
     @media (max-width: 767px) {
         .main_window{
             width:100%;
-            border:15px solid #e5eded !important;
+            border:15px solid #8e9089 !important;
             border-top:none !important;
         }  
     }
