@@ -104,13 +104,13 @@
     }
     /*hyperlinks*/
     a{
-        color:#ed2227;
+        color:#6e4700;
         text-decoration:inherit;
     }
     
     /*hyperlink hover color*/
     a:hover{
-        color:#ed2227 !important;
+        color:#6e4700!important;
     }
     
     body{
