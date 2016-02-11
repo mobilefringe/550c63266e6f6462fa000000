@@ -150,9 +150,8 @@
     .navbar .nav li a {
     color: black !important;
 }
-    .navbar .nav li a:hover {
-    color: black !important;
-}
+   
+
     /*menu colors*/
     .navbar .nav li a{
         color:white;
@@ -162,7 +161,7 @@
     }
     
     .navbar .nav li a:hover,.navbar .nav li a:active{
-     color:#6e4700;
+     color:black;
     }
     
     
