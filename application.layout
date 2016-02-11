@@ -147,7 +147,12 @@
         text-align:center;
         color:white !important;
     }
-    
+    .navbar .nav li a:hover {
+    color: black !important;
+    }
+    .navbar .nav li a:hover {
+    color: black !important;
+}
     /*menu colors*/
     .navbar .nav li a{
         color:white;
