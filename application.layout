@@ -132,7 +132,7 @@
     }
 
     .main_window{
-        border:40px solid #8e9089;
+        border:40px solid #e5eded;
     }
     .btn-primary{
         background: #ed2227 !important;
@@ -177,18 +177,18 @@
     }
     /*social media box color*/
     #social_media_wrapper{
-        background:#8e9089;
+        background:#e5eded;
        
     }
     /*social media icon inner color*/
     #social_media_wrapper a{
-        color:#8e9089;
+        color:#e5eded;
         background:white !important;
         
     }
     #social_media_wrapper a:hover{
         color: white !important;
-        background:#8e9089 !important;
+        background:#e5eded !important;
     }
     .map-mouse-over{
     /*set color of store highlight and hover over for SVG map*/
@@ -229,7 +229,7 @@
     @media (max-width: 767px) {
         .main_window{
             width:100%;
-            border:15px solid #8e9089 !important;
+            border:15px solid #e5eded !important;
             border-top:none !important;
         }  
     }
