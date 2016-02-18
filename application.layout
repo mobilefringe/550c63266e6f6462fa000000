@@ -148,7 +148,7 @@
         color:white !important;
     }
     .navbar .nav li a {
-    color: black !important;
+    color: white !important;
 }
    
 
