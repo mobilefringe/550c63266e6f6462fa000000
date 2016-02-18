@@ -147,14 +147,12 @@
         text-align:center;
         color:white !important;
     }
-    .navbar .nav li a {
-    color: white !important;
-}
+    
    
 
     /*menu colors*/
     .navbar .nav li a{
-        color:black;
+        color:white;
     }
     .view_button {
         background:#ada894 !important;
