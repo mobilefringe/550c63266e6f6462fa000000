@@ -124,11 +124,11 @@
     }
     .site_welcome_msg {
   
-    color: white;
+    color: black;
     }
     .site_description {
    
-    color: white !important;
+    color: black !important;
     }
 
     .main_window{
@@ -196,14 +196,14 @@
     }
     /*inside page banners*/
     .page_banner{
-        background: #6e4700 !important;
-        color:white;
+        background: #b6b6b5 !important;
+        color:black;
     }
     .navbar .nav li a:hover {
     color: black !important;
 }
     #description_section{
-        background: #6e4700 !important;
+        background: #b6b6b5 !important;
     }
     
     .section_header{}
