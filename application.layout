@@ -120,7 +120,7 @@
        width:100% !important;
    }
     header{
-        background: #e5eded;
+        background: #8e9089;
     }
     .site_welcome_msg {
   
