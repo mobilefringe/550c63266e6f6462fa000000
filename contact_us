@@ -19,7 +19,36 @@
                         <p class="directory_content">{{name}}</p>
                         <p class="directory_content">{{address1}}</p>
                         <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
-                        <p class="directory_content"><strong>Kristine Kelly</strong> 
+                         <p class="directory_content"><strong>Dev Hubraj</strong> 
+                   <br>Vice President Leasing, Eastern Canada*
+                   <br>1-905-271-5092
+                   <br><a href="mailto:dhubraj@bentallkennedy.com" target="_blank">dhubraj@bentallkennedy.com</a>
+                   <br>*Sales Representative</p>
+                   <br>
+                   <p class="directory_content"><strong>Rick Saker</strong> 
+                    <br>General Manager
+                    <br>905-561-2444 (ext. 226) 
+                    <br><a href="mailto:rsaker@bentallkennedy.com ">rsaker@bentallkennedy.com</a></p>
+                    <br>
+                     <p class="directory_content"><strong>Len Kirby</strong> 
+                   <br>Operations Manager
+                   <br>905-561-2444 (ext. 224)
+                   <br><a href="mailto:lkirby@bentallkennedy.com" target="_blank">lkirby@bentallkennedy.com</a></p>
+                   <br>
+                     <p class="directory_content"><strong>Barb Miele</strong> 
+                   <br>Marketing Director <br>& Specialty Leasing Coordinator
+                   <br>905-561-2444 (ext. 222)
+                   <br><a href="mailto:bmiele@bentallkennedy.com" target="_blank">bmiele@bentallkennedy.com</a></p>
+                    <br>
+                     <p class="directory_content"><strong>Brenda Millar </strong> 
+                   <br>Retail Accounts Coordinator
+                   <br>905-561-2444 (ext. 223) 
+                   <br> <a href="mailto:bmillar@bentallkennedy.com" target="_blank">bmillar@bentallkennedy.com</a></p>
+                   <br>
+                   <p class="directory_content"><strong>Vicky James</strong> 
+                   <br>Administrative Assistant & Accounts Payable
+                   <br>905-561-2444 (ext. 221)
+                   <br> <a href="mailto:vjames@bentallkennedy.com" target="_blank">vjames@bentallkennedy.com</a></p>
                    <br>
                     
                    <p class="directory_content"><strong>Kristine Kelly</strong> 
@@ -27,39 +56,12 @@
                    <br>905-561-2444 (ext. 229)
                    <br> <a href="mailto:kkelly@bentallkennedy.com" target="_blank">kkelly@bentallkennedy.com</a></p>
                    <br>
-                    <p class="directory_content"><strong>Rick Saker</strong> 
-                    <br>General Manager
-                    <br>905-561-2444 (ext. 226) 
-                    <br><a href="mailto:rsaker@bentallkennedy.com ">rsaker@bentallkennedy.com</a></p>
-                    <br>
-                    <p class="directory_content"><strong>Dev Hubraj</strong> 
-                   <br>Vice President Leasing, Eastern Canada*
-                   <br>1-905-271-5092
-                   <br><a href="mailto:dhubraj@bentallkennedy.com" target="_blank">dhubraj@bentallkennedy.com</a>
-                   <br>*Sales Representative</p>
-                   <br>
-                   <p class="directory_content"><strong>Len Kirby</strong> 
-                   <br>Operations Manager
-                   <br>905-561-2444 (ext. 224)
-                   <br><a href="mailto:lkirby@bentallkennedy.com" target="_blank">lkirby@bentallkennedy.com</a></p>
+                    <p class="directory_content"><strong>Darcy Pereira</strong> 
+                   <br>Security Supervisor
+                   <br>905-561-2444 (ext.231) 
+                   <br> <a href="mailto:dpereira@bentallkennedy.com" target="_blank">dpereira@bentallkennedy.com</a></p>
                    <br>
                    
-                   
-                   <p class="directory_content"><strong>Barb Miele</strong> 
-                   <br>Marketing Director <br>& Specialty Leasing Coordinator
-                   <br>905-561-2444 (ext. 222)
-                   <br><a href="mailto:bmiele@bentallkennedy.com" target="_blank">bmiele@bentallkennedy.com</a></p>
-                    <br>
-                   <p class="directory_content"><strong>Brenda Millar </strong> 
-                   <br>Retail Accounts Coordinator
-                   <br>905-561-2444 (ext. 223) 
-                   <br> <a href="mailto:bmillar@bentallkennedy.com" target="_blank">bmillar@bentallkennedy.com</a></p>
-                   <br>
-           
-                   <p class="directory_content"><strong>Vicky James</strong> 
-                   <br>Administrative Assistant & Accounts Payable
-                   <br>905-561-2444 (ext. 221)
-                   <br> <a href="mailto:vjames@bentallkennedy.com" target="_blank">vjames@bentallkennedy.com</a></p>
                 
                   
                     </script>
@@ -130,44 +132,47 @@
                     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                      <br>
                     
-                   <p class="directory_content"><strong>Kristine Kelly</strong> 
-                   <br>Customer Service Supervisor
-                   <br>905-561-2444 (ext. 229)
-                   <br> <a href="mailto:kkelly@bentallkennedy.com" target="_blank">kkelly@bentallkennedy.com</a></p>
-                   <br>
-                    <p class="directory_content"><strong>Rick Saker</strong> 
-                    <br>General Manager
-                    <br>905-561-2444 (ext. 226) 
-                    <br><a href="mailto:rsaker@bentallkennedy.com ">rsaker@bentallkennedy.com</a></p>
-                    <br>
-                    <p class="directory_content"><strong>Dev Hubraj</strong> 
+                  <p class="directory_content"><strong>Dev Hubraj</strong> 
                    <br>Vice President Leasing, Eastern Canada*
                    <br>1-905-271-5092
                    <br><a href="mailto:dhubraj@bentallkennedy.com" target="_blank">dhubraj@bentallkennedy.com</a>
                    <br>*Sales Representative</p>
                    <br>
-                   <p class="directory_content"><strong>Len Kirby</strong> 
+                   <p class="directory_content"><strong>Rick Saker</strong> 
+                    <br>General Manager
+                    <br>905-561-2444 (ext. 226) 
+                    <br><a href="mailto:rsaker@bentallkennedy.com ">rsaker@bentallkennedy.com</a></p>
+                    <br>
+                     <p class="directory_content"><strong>Len Kirby</strong> 
                    <br>Operations Manager
                    <br>905-561-2444 (ext. 224)
                    <br><a href="mailto:lkirby@bentallkennedy.com" target="_blank">lkirby@bentallkennedy.com</a></p>
                    <br>
-                   
-                   
-                   <p class="directory_content"><strong>Barb Miele</strong> 
+                     <p class="directory_content"><strong>Barb Miele</strong> 
                    <br>Marketing Director <br>& Specialty Leasing Coordinator
                    <br>905-561-2444 (ext. 222)
                    <br><a href="mailto:bmiele@bentallkennedy.com" target="_blank">bmiele@bentallkennedy.com</a></p>
                     <br>
-                   <p class="directory_content"><strong>Brenda Millar </strong> 
+                     <p class="directory_content"><strong>Brenda Millar </strong> 
                    <br>Retail Accounts Coordinator
                    <br>905-561-2444 (ext. 223) 
                    <br> <a href="mailto:bmillar@bentallkennedy.com" target="_blank">bmillar@bentallkennedy.com</a></p>
                    <br>
-           
                    <p class="directory_content"><strong>Vicky James</strong> 
                    <br>Administrative Assistant & Accounts Payable
                    <br>905-561-2444 (ext. 221)
                    <br> <a href="mailto:vjames@bentallkennedy.com" target="_blank">vjames@bentallkennedy.com</a></p>
+                   <br>
+                    
+                   <p class="directory_content"><strong>Kristine Kelly</strong> 
+                   <br>Customer Service Supervisor
+                   <br>905-561-2444 (ext. 229)
+                   <br> <a href="mailto:kkelly@bentallkennedy.com" target="_blank">kkelly@bentallkennedy.com</a></p>
+                   <br>
+                    <p class="directory_content"><strong>Darcy Pereira</strong> 
+                   <br>Security Supervisor
+                   <br>905-561-2444 (ext.231) 
+                   <br> <a href="mailto:dpereira@bentallkennedy.com" target="_blank">dpereira@bentallkennedy.com</a></p>
                   
                 </script>
             </div>
