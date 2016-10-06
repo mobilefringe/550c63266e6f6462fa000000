@@ -1,0 +1,96 @@
+<div id="loading_screen">
+    <img alt="loading" src="//kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
+</div>
+<div  id="main_content" style="display:none">
+    <ul class="breadcrumb">
+        <li><a href="/home">Home</a> </li>
+        <li class="active">Customer Service</li>
+    </ul>
+    <div class="page_banner">
+        Customer Service
+    </div>
+    <div class="inside_page_content">
+        <div class="left_column">
+            <img class="inside_banner_image" alt="banner" src="//kodekloud.s3.amazonaws.com/sites/550c63266e6f6462fa000000/ccf3c22d4d18b16c85a7e3404760baff/banner4.png"/>
+           
+            <div>To reach Customer Service call 905-561-2444 open all shopping mall hours. Customer Service is located between People&rsquo;s Jewellers and Charm Diamond Centres.<br />
+<br />
+<u><strong>Centre/Event Information</strong></u><br />
+<br />
+From home or in person, we will provide assistance in locating stores and services.<br />
+<br />
+<u><strong>Community Booth Bookings</strong></u><br />
+<br />
+The Community Booth is available to Registered Charitable and/or Not-for-Profit Organizations. Please contact Kristine Kelly the Customer Service Supervisor for details at 905-561-2444 ext.229.<br />
+<br />
+<u><strong>Employment Opportunities</strong></u><br />
+<br />
+Full and Part Time positions available within the mall. The employment list is available at the Customer Service Centre.<br />
+<br />
+<u><strong>Gift Cards</strong></u><br />
+<br />
+Available for purchase at the Customer Service Centre. We accept Cash, VISA, MasterCard &amp; Debit. VALID at Eastgate Square only.<br />
+<br />
+
+<u><strong>Lost and Found</strong></u><br />
+<br />
+Lost something while shopping? Customer Service will be happy to assist you.<br />
+<br />
+<u><strong>Walkers, Wheelchair &amp; Stroller Loans</strong></u><br />
+<br />
+Complimentary for the customers on a first come first serve basis. Valid ID is required to borrow the equipment.<br />
+<br />
+<span id="StdTextRed">Strollers - Children must be able to sit comfortably with their feet flat on the footplate &amp; their knees below the bar. The safety of your child is of upmost importance to us and your co-operation is appreciated. &nbsp; &nbsp; &nbsp;</span></div>
+
+        </div>
+        <div class="right_column">
+            <p class="right_column_header">centre information</p>
+            <div id="centre_info_container">
+                <script id="centre_info_template" type="x-tmpl-mustache/text">
+                    <p class="directory_content">{{name}}</p>
+                    <p class="directory_content">{{address1}}</p>
+                    <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
+                </script>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function() {
+        function renderAll (){
+            var propertyDetails = getPropertyDetails();
+            renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
+            $("#loading_screen").hide();
+            $("#main_content").show();
+        }
+        
+    
+        function renderPageData(container, template, collection, type){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(template).html();
+            Mustache.parse(template_html);   // optional, speeds up future uses
+            if (type == "property_details"){
+                item_list.push(collection);
+                collection = []
+                collection = item_list;
+            }
+            $.each( collection , function( key, val ) {
+                var rendered = Mustache.render(template_html,val);
+                item_rendered.push(rendered);
+    
+            });
+            
+            $(container).show();
+            $(container).html(item_rendered.join(''));
+        };
+
+        loadMallData(renderAll);  
+
+    
+  
+    });
+    
+</script>
