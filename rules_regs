@@ -1,0 +1,104 @@
+<div id="loading_screen">
+    <img alt="loading" src="//kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
+</div>
+<div  id="main_content" style="display:none">
+    <ul class="breadcrumb">
+        <li><a href="/home">Home</a> </li>
+        <li class="active">Contest Rules & Regulations</li>
+    </ul>
+    <div class="page_banner">
+        Contest Rules & Regulations
+    </div>
+    <div class="inside_page_content">
+        <div class="left_column">
+            
+            <p style="text-align:center"><span style="font-size:22px"><span style="color:#008000"><strong>&ldquo;Earth Week &ndash; Drive up E- Waste Collection&rdquo;</strong></span></span></p>
+
+<p style="text-align:center"><span style="font-size:22px"><span style="color:#008000"><strong>Saturday, April 25th, 2015 </strong></span></span></p>
+
+<p style="text-align:center"><span style="font-size:22px"><span style="color:#008000"><strong>11:00 a.m. until 3:00 p.m. </strong></span></span></p>
+
+<p style="text-align:center"><span style="font-size:22px"><span style="color:#008000"><strong>Chance to WIN!! One of 4 &ndash; </strong><strong>Samsung Galaxy Tab 3 Lite Tablets</strong></span></span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><u><span style="font-size:16px"><strong>Contest Rules and Regulations:</strong></span></u><br />
+<br />
+1. <strong>To receive a ballot you must donate to our E-Waste Collection on Saturday April 25th, 2015</strong>&nbsp;between the times of 11:00 a.m. and 3:00 p.m.<br />
+<br />
+2. One ballot per person per donated item. <strong>* the more items you donate the better chances you have to win *</strong><br />
+<br />
+3. Entrants must be a resident of Hamilton, ON or Surrounding Area.</p>
+
+<p>4. Random Draw will take place on <strong><u>Saturday April 25th, 2015</u>.</strong>&nbsp; <strong>Winner(s) will be notified by 4:00 p.m. on Saturday April 25th, 2015.</strong></p>
+
+<p>5. Prize is one of 4 Samsung Galaxy Tab 3 Lite Tablets.<br />
+<br />
+6. All winners must come to the Customer Service Centre to claim their prize with a valid piece of identification.<br />
+<br />
+7. All winners must sign the Bentall Kennedy (Canada) LP acknowledgement release form and release Bentall Kennedy (Canada) LP , Eastgate Square GP Inc. &amp; Eastgate Square LP rights to publish their names and photographs without compensation to them. Winners under the age of 18 years will need a parent/guardian to sign the Bentall Kennedy (Canada) LP acknowledgement release form.<br />
+<br />
+9. All prize packages are non-refundable, non-transferable and non-redeemable for cash value.<br />
+<br />
+10. The contest is subject to all federal, provincial and municipal laws.<br />
+<br />
+11. Each entrant agrees to abide by all contest rules. If there is any doubt as to the eligibility of an entrant or of manner in which an entrant wins a prize, the Judges shall decide the issue and her or their decision shall be final. Entrants using any scheme, information or method to win any prize which, in the sole opinion of the judges, is other than fair chance, will be disqualified and lose the right to claim the prize to which they otherwise would have been entitled.<br />
+<br />
+12. Winner must correctly answer a skill testing question.<br />
+<br />
+13. Privacy is important to us, please be assured that at no time will your personal information be sold or rented to a third party.</p>
+
+        </div>
+        <div class="right_column">
+            <p class="right_column_header">centre information</p>
+            <div id="centre_info_container">
+                <script id="centre_info_template" type="x-tmpl-mustache/text">
+                    <p class="directory_content">{{name}}</p>
+                    <p class="directory_content">{{address1}}</p>
+                    <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
+                </script>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function() {
+        function renderAll (){
+            var propertyDetails = getPropertyDetails();
+            renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
+            $("#loading_screen").hide();
+            $("#main_content").show();
+        }
+        
+    
+        function renderPageData(container, template, collection, type){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(template).html();
+            Mustache.parse(template_html);   // optional, speeds up future uses
+            if (type == "property_details"){
+                item_list.push(collection);
+                collection = []
+                collection = item_list;
+            }
+            $.each( collection , function( key, val ) {
+                var rendered = Mustache.render(template_html,val);
+                item_rendered.push(rendered);
+    
+            });
+            
+            $(container).show();
+            $(container).html(item_rendered.join(''));
+        };
+
+        loadMallData(renderAll);  
+
+    
+  
+    });
+    
+</script>
