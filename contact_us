@@ -19,10 +19,10 @@
                         <p class="directory_content">{{name}}</p>
                         <p class="directory_content">{{address1}}</p>
                         <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
-                         <p class="directory_content"><strong>Dev Hubraj</strong> 
-                   <br>Vice President Leasing, Eastern Canada*
-                   <br>1-905-271-5092
-                   <br><a href="mailto:dhubraj@bentallkennedy.com" target="_blank">dhubraj@bentallkennedy.com</a>
+                         <p class="directory_content"><strong>Garnet Peirson</strong> 
+                   <br>Director, Leasing Retail Services*
+                   <br>1-905-271-5087 
+                   <br><a href="mailto:gpeirson@bentallkennedy.com" target="_blank">gpeirson@bentallkennedy.com</a>
                    <br>*Sales Representative</p>
                    <br>
                    <p class="directory_content"><strong>Rick Saker</strong> 
@@ -132,10 +132,10 @@
                     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                      <br>
                     
-                  <p class="directory_content"><strong>Dev Hubraj</strong> 
-                   <br>Vice President Leasing, Eastern Canada*
-                   <br>1-905-271-5092
-                   <br><a href="mailto:dhubraj@bentallkennedy.com" target="_blank">dhubraj@bentallkennedy.com</a>
+                 <p class="directory_content"><strong>Garnet Peirson</strong> 
+                   <br>Director, Leasing Retail Services*
+                   <br>1-905-271-5087 
+                   <br><a href="mailto:gpeirson@bentallkennedy.com" target="_blank">gpeirson@bentallkennedy.com</a>
                    <br>*Sales Representative</p>
                    <br>
                    <p class="directory_content"><strong>Rick Saker</strong> 
