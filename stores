@@ -158,7 +158,6 @@
                         category_stores.push(all_stores[j]);
                         stores_per_cat.push(all_stores[j]);
                     }
-                
                 }
                 var rendered = Mustache.render(template_html,all_categories[i]);
                 item_rendered.push(rendered);
