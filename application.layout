@@ -94,7 +94,7 @@
                 imagePath: '//cdn.jsdelivr.net/jquery.jreject/1.0.2/images/'
             });      
         });
-        setEndPoint('//eastgate.mallmaverick.com/api/v4/eastgate/all.json');
+        setEndPoint('http://eastgate.mallmaverickdevelopment.com/api/v4/eastgate/all.json');
     </script>
     <style>
         /*custom styles*/
